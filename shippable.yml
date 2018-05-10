@@ -43,8 +43,6 @@ build:
     - psql --version
     - redis-server -v
     - riak version
-    - rethinkdb -v #|| true
     - which mysql
     - mysql -V #|| true
     - which sqlite3 #|| true
-    
